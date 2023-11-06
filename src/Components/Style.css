@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+padding: 90px 0 90px 0;
+background-color: rgb(252, 252, 252);
+}
+.sub-main{
+    justify-content: center;
+    display: flex;
+    min-height: 550px;
+    min-width: 35%;
+    box-shadow: 11px 12px 13px 12px rgb(129, 132, 132);
+    border-radius: 60px;
+    background-color: white;
+ 
+}
+
+.imgs{
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+.container-img{
+    background-color: rgb(252, 252, 252);
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    height: 115px;
+    width: 115px;
+}
+.profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+}
+input{
+
+    border-radius: 15px;
+    background-color: rgb(237, 242, 252);
+    box-shadow: 11px 12px 13px 12px rgb(211, 209, 211);
+    margin: 7px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+  }
+  
+  .divider {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+
+
+button{
+margin-top: 30px;
+border-radius: 20px !important;
+}
+
+
+.text1{
+    font-size: 30px;
+    text-align: center;
+    /* animation: 3s linear 1 1s running slidein; */
+}
+/* @keyframes slidein {
+    from {
+      margin-left: 60%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  } */
+

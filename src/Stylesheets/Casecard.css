@@ -1,0 +1,132 @@
+.sec2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cardss {
+    width: 350px;
+    margin: 20px;
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #f1f1f1;
+    text-align: center;
+  }
+  
+  .new {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  
+  .cardlogo {
+    flex: 0 0 50%;
+  
+  
+  }
+  .cardlogo img {
+    margin-top: 20px;
+    margin-left: 10px;
+    max-width: 100%;
+    float: left;
+    border: 1px solid rgb(169, 166, 166);
+    padding: 10px;
+  }
+   
+  .cardtext {
+    flex: 100%;
+    margin-top: -80px;
+    color: rgb(80, 76, 76);
+    font-size: 20px;
+  }
+  
+  .cardtext2 {
+    flex: 100%;
+    margin-top: -45px;
+    margin-left: 70px;
+    font-size: 28px;
+    color:black ;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .new-card {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .card-circle {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid rgb(170, 169, 169);
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .dot {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+background-color: #d0a15e;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%) rotate(0deg) translate(40px) rotate(-90deg); */
+    animation: rotate 6s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg) translate(40px) rotate(-90deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg) translate(40px) rotate(-90deg);
+    }
+  }
+  .divtext{
+    width: 100%;
+      text-align: center;
+    
+    }
+    .text-law{
+      position: absolute;
+      top: 50%;
+      justify-content: center;
+      font-size: 22px;
+      left: 75px;
+      color: rgb(44, 44, 44);
+    }
+    .texth6{
+      position: absolute;
+      top: 60%;
+      width: 80%;
+      font-size: 15px;
+      color: rgb(104, 103, 103);
+      left: 30px;
+      right: 30px;
+      line-height: 25px;
+    
+    }
+  

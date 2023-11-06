@@ -1,0 +1,17 @@
+
+.TestimonialCard {
+    border-top-right-radius: 30px;
+    transition: 1000ms;
+}
+
+.TestimonialImage img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.TestimonialCard:hover {
+    box-shadow: 10px 10px 10px rgb(204, 201, 201);
+}
+.heading{
+    color: black !important;
+}
